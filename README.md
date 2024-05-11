@@ -11,7 +11,7 @@ The objective of this project is to implement a spam filter using the Naive Baye
 
 ## Steps:
 ### Preprocessing the Text
-Preprocessed the text data by tokenizing, removing stop words, and performing any additional text cleaning steps necessary for feature extraction. This step aimed to transform the raw text data into a format suitable for model training.
+The preprocessing pipeline involves tokenizing the text, removing stop words, creating a count matrix, and computing TF-IDF scores to transform the raw text data into a numerical format suitable for model training.
 
 ### Model Training
 Trained the Naive Bayes classifier using the preprocessed text data. Split the dataset into training and testing sets for model evaluation purposes. This involved fitting the model to the training data to learn patterns and associations between features and labels.
